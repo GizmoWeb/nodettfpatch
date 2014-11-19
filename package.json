@@ -1,0 +1,37 @@
+{
+  "name": "nodeTTFPatch",
+  "description": "TTFPATCH - node.js porting v1.0 - (C) by Wolfram Esser [wok@derwok.de] 2001-02-23",
+  "version": "1.0.0",
+  "homepage": "https://github.com/GizmoWeb/nodeTTFPatch",
+  "author": {
+    "name": "GizmoWeb",
+    "email": "daniele.tardia@gmail.com",
+    "url": "https://github.com/GizmoWeb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GizmoWeb/nodeTTFPatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GizmoWeb/nodeTTFPatch/issues"
+  },
+  "licenses": [
+    {
+      "type": "LICENSE.md",
+      "url": "https://github.com/GizmoWeb/nodeTTFPatch/LICENSE.md"
+    }
+  ],
+  "main": "./lib/index.js",
+  "bin": {
+      "ttfpatch": "./lib/ttfpatch.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": ["font", "ttf", "ttfpatch", "patch"]
+}
