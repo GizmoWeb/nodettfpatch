@@ -11,6 +11,7 @@ var ttfpatch = require('nodeTTFPatch');
 ttfpatch();	//for module help
 ttfpatch(filePath);	//for font file check filetype
 ttfpatch(filePath,wantedFontType); //for modify font file type
+```
 
 # TTFPatch Patches and Builds
 
