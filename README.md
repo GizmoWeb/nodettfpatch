@@ -13,11 +13,11 @@ npm install -g nodeTTFPatch
 
 - `filePath` - TTF font path
 - `wantedFontType` - values:
--- 0: embedding for permanent installation
--- 1: reserved - do not use!
--- 2: embedding restricted (not allowed!)
--- 4: embedding for preview & printing allowed
--- 8: embedding for editing allowed
+	- 0: embedding for permanent installation
+	- 1: reserved - do not use!
+	- 2: embedding restricted (not allowed!)
+	- 4: embedding for preview & printing allowed
+	- 8: embedding for editing allowed
 Hint: fsType values can be added. So a fsType value of '12' (which is 4 + 8) means set 'embedding for preview&printing allowed' and set 'embedding for editing allowed'.
 
 #### Using from CLI
