@@ -1,11 +1,33 @@
 # nodeTTFPatch
 
-"Brutal" TTFPATCH - node.js porting v1.0 - (C) by Wolfram Esser [wok@derwok.de] 2001-02-23
+"Brutal" TTFPATCH - node.js porting v1.0 - (C) by Wolfram Esser [wok@derwok.de] 2001-02-23. This is only a "translation" in node.js of this useful project http://www.derwok.de/downloads/ttfpatch/ and related fork https://github.com/rmuch/ttfpatch
 
 ## Getting Started
-Install the module with: `npm install nodeTTFPatch`
+Install the module with:
+
+``` bash
+npm install -g nodeTTFPatch
+```
 
 ## How to use
+
+- `filePath` - TTF font path
+- `wantedFontType` - values:
+-- 0: embedding for permanent installation
+-- 1: reserved - do not use!
+-- 2: embedding restricted (not allowed!)
+-- 4: embedding for preview & printing allowed
+-- 8: embedding for editing allowed
+Hint: fsType values can be added. So a fsType value of '12' (which is 4 + 8) means set 'embedding for preview&printing allowed' and set 'embedding for editing allowed'.
+
+#### Using from CLI
+
+``` bash
+ttfpatch filePath wantedFontType
+```
+
+#### Using in script
+
 ```javascript
 var ttfpatch = require('nodeTTFPatch');
 ttfpatch();	//for module help
