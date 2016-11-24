@@ -1,4 +1,4 @@
-# nodeTTFPatch
+# nodettfpatch
 
 "Brutal" TTFPATCH - node.js porting v1.0 - (C) by Wolfram Esser [wok@derwok.de] 2001-02-23. This is only a "translation" in node.js of this useful project http://www.derwok.de/downloads/ttfpatch/ and related fork https://github.com/rmuch/ttfpatch
 
@@ -6,7 +6,7 @@
 Install the module with:
 
 ``` bash
-npm install -g nodeTTFPatch
+npm install -g nodettfpatch
 ```
 
 ## How to use
@@ -29,7 +29,7 @@ ttfpatch filePath wantedFontType
 #### Using in script
 
 ```javascript
-var ttfpatch = require('nodeTTFPatch');
+var ttfpatch = require('nodettfpatch');
 ttfpatch();	//for module help
 ttfpatch(filePath);	//for font file check filetype
 ttfpatch(filePath,wantedFontType); //for modify font file type

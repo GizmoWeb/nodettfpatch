@@ -1,8 +1,8 @@
 {
   "name": "nodettfpatch",
   "description": "TTFPATCH - node.js porting v1.0 - (C) by Wolfram Esser [wok@derwok.de] 2001-02-23",
-  "version": "1.0.0",
-  "homepage": "https://github.com/GizmoWeb/nodeTTFPatch",
+  "version": "1.0.1",
+  "homepage": "https://github.com/GizmoWeb/nodettfpatch",
   "author": {
     "name": "GizmoWeb",
     "email": "daniele.tardia@gmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GizmoWeb/nodeTTFPatch.git"
+    "url": "git://github.com/GizmoWeb/nodettfpatch.git"
   },
   "bugs": {
-    "url": "https://github.com/GizmoWeb/nodeTTFPatch/issues"
+    "url": "https://github.com/GizmoWeb/nodettfpatch/issues"
   },
   "licenses": [
     {
       "type": "LICENSE.md",
-      "url": "https://github.com/GizmoWeb/nodeTTFPatch/LICENSE.md"
+      "url": "https://github.com/GizmoWeb/nodettfpatch/LICENSE.md"
     }
   ],
   "main": "./lib/index.js",
